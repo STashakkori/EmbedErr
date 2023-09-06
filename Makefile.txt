@@ -1,0 +1,27 @@
+CC = g++
+CFLAGS = -Wall -std=c++20
+
+# List of source files
+SRCS = EmbedErr.cpp
+
+# List of header files
+HDRS = Chron.h Error.h Errorable.h Log.h Print.h
+
+# List of object files (automatically generated)
+OBJS = $(SRCS:.cpp=.o)
+
+# Executable name
+TARGET = my_program
+
+all: $(TARGET)
+
+$(TARGET): $(OBJS)
+	$(CC) $(CFLAGS) -o $@ $(OBJS)
+
+%.o: %.cpp $(HDRS)
+	$(CC) $(CFLAGS) -c $< -o $@
+
+clean:
+	rm -f $(OBJS) $(TARGET)
+
+.PHONY: all clean
