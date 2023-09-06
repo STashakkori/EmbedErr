@@ -1,3 +1,6 @@
+// EmbedErr
+// By: Sina Tashakkori, QVLx Labs
+
 #ifndef CHRON_H
 #define CHRON_H
 
