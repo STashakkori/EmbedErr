@@ -1,3 +1,6 @@
+// EmbedErr
+// By: Sina Tashakkori, QVLx Labs
+
 #ifndef LOG_H
 #define LOG_H
 
