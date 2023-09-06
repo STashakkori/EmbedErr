@@ -1,7 +1,6 @@
 // EmbedErr
-// 
 // By: Sina Tashakkori, QVLx Labs
-//
+
 #include <iostream>
 #include "Error.h"
 #include "Errorable.h"
