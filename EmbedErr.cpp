@@ -1,5 +1,5 @@
 // EmbedErr
-// By: Sina Tashakkori, QVLx Labs
+// $t@$h   QVLx Labs
 
 #include <iostream>
 #include "Error.h"
